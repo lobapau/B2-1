@@ -1,4 +1,4 @@
-//Wilson Said Morales
+//Creado por Wilson Said Morales
 #include <iostream>
 using namespace std;
 int main ()
