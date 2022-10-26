@@ -1,4 +1,4 @@
-//calcular la edad
+//Creado por Wilson Morales
 #include <iostream>
 using namespace std;
  
@@ -7,11 +7,11 @@ void calcularEdad( int anioAct , int mesAct, int fechAct, int anioNac, int mesNa
  
 int main ()
 {
-    int anioAct;  //Año Actual
+    int anioAct;  //AÃ±o Actual
     int mesAct; //Mes actual
     int fechAct; //Fecha actual
  
-    int anioNac; //Año nacimiento
+    int anioNac; //AÃ±o nacimiento
     int mesNac; //Mes nacimiento
     int fechNac; //Fecha nacimiento
  
@@ -36,8 +36,8 @@ void calcularEdad( int anioAct , int mesAct, int fechAct, int anioNac, int mesNa
  
     if ( fechAct < fechNac  )
     {   //En caso de ser menor la fecha actual que el nacimiento
-        fechAct = fechAct + 30; // Se le suma los 30 días (1 mes) a la fecha actual
-        mesAct = mesAct - 1; // Se le resta un mes (30 días) al mes actual
+        fechAct = fechAct + 30; // Se le suma los 30 dÃ­as (1 mes) a la fecha actual
+        mesAct = mesAct - 1; // Se le resta un mes (30 dÃ­as) al mes actual
         respFech =  fechAct - fechNac; //Se le resta fecha nacimiento al actual
     }
     else //En caso de ser mayor la fecha actual que el nacimiento
@@ -45,12 +45,12 @@ void calcularEdad( int anioAct , int mesAct, int fechAct, int anioNac, int mesNa
  
     if( mesAct < mesNac )
     {   //En caso de ser menor el mes actual que el nacimiento
-        mesAct = mesAct + 12; // Se le suma los 12 meses (1 año) al mes actual
-        anioAct = anioAct - 1 ; // Se le resta 1 año ( 12 meses) al año actual
-        respMes = mesAct - mesNac; //Se le resta año nacimiento al actual
+        mesAct = mesAct + 12; // Se le suma los 12 meses (1 aÃ±o) al mes actual
+        anioAct = anioAct - 1 ; // Se le resta 1 aÃ±o ( 12 meses) al aÃ±o actual
+        respMes = mesAct - mesNac; //Se le resta aÃ±o nacimiento al actual
     }
     else //En caso de ser mayor el mes actual que el nacimiento
-        respMes = mesAct - mesNac; //Se le resta año nacimiento al actual
+        respMes = mesAct - mesNac; //Se le resta aÃ±o nacimiento al actual
  
     cout << "\nUd. tiene:\n";
     cout << " Edad: " <<anioAct - anioNac << endl; //Muestra edad
