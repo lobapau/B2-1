@@ -1,4 +1,4 @@
-//Calcular el promedio mas alto
+//Creado por Wilson Morales //Calcular el promedio mas alto
 #include <iostream>
 
 using namespace std;
