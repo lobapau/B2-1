@@ -1,4 +1,4 @@
-//Suma de varios numeros
+//Creado por Wilson Morales
 #include<iostream>
 #include<stdlib.h>
 
