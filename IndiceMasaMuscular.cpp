@@ -1,3 +1,4 @@
+//Creado por Wilson Said Morales
 #ifdef __MSDOS__
     #include <iostream.h>
     #include <stdlib.h>
